@@ -1,0 +1,16 @@
+.loading-container{
+    text-align: center;
+}
+.grid-container{
+    text-align: center;
+}
+.grid-container > div{
+    display: inline-block;
+}
+.ag-cell-focus,.ag-cell-no-focus{
+    border:none !important;
+}
+.no-border.ag-cell:focus{
+    border:none !important;
+    outline: none;
+}
